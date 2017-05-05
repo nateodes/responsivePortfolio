@@ -1,0 +1,87 @@
+header {
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+	font-size: 2.5em;
+	display: inline-block;
+}
+
+body {
+	background-image: url("cloth.png");
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 960px;
+}
+
+p {
+	background-color: #ffffff;
+	font-color: #777777;
+	padding: 0;
+}
+
+footer {
+	background-color: #666666;
+	text-align: center;
+	padding-bottom: 10px;
+	 
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+#bio {
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 20px;
+	background-color: #ffffff;
+	text-indent: 10px;
+	letter-spacing: 2px;
+	padding: 10px;
+	overflow: auto;
+	border-color: 1px solid #dddddd;
+	float: left;
+	margin-left: 200px;
+}
+
+.box2 {
+	float: left;
+	clear: both;
+	width: 30%;
+	height: 120px;
+}
+
+h2 {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	overflow: auto;
+	clear: both;
+	background: #ccc;
+	display: block;
+	text-align: center;
+}
+
+.box1 {
+	float: right;
+	width: 25%;
+	padding: 20px;
+	margin-bottom: 5px;
+	border: 1px solid black;
+	background-color: grey;
+}
+
+.box3 {
+	width: 20%;
+	height: 65px;
+	float: right;
+	background-color: white;
+	text-align: top;
+	padding: 20px;
+	top: 100;	
+}

@@ -1,0 +1,103 @@
+.header {
+	display: inline-block;
+	position: fixed;
+	float: left;
+	font-size: 2rem;
+	background-color: #4aaaa5;
+	padding: 15px;
+}
+
+.main {
+	width: 90%;
+	height: 500px;
+	background-color: #f3f3f3;
+	border-top: 1px solid grey;
+
+}
+
+.bio {
+	width: 40%;
+	height: 300px;
+	text-align: center;
+	letter-spacing: 3px;
+	float: left;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-top: 55px;
+	padding-bottom: 130px;
+}
+
+.aside {
+	background-color: #ffffff;
+	width: 30%;
+	text-align: center;
+	letter-spacing: 3px;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	margin-top: 55px;
+	border-radius: 98%;
+	font-size: 1.2rem;
+
+}
+
+nav {
+	float: right;
+	margin-right: 150px;
+	letter-spacing: 2px;
+}
+
+footer {
+	width: 90%;
+	background-color: #666666;
+	margin-top: 0;
+	text-align: center;
+	clear: both;
+	bottom: 0;
+	padding-top: 50px;
+	height: 20px;
+	padding-bottom: 100px;
+	border-top: 2px solid #4aaaa5;
+}
+
+#connect {
+   width: 40%;
+   height: 200px;
+   background: #ffffff;
+   float: left;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   margin-top: 70px;
+   margin-left: 50px;
+   text-align: center;
+   letter-spacing: 2px;
+   font-size: 1.5rem;
+}
+
+.images {
+	margin: 10px;
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 1.2rem;
+	font-weight: 600;
+
+}
+
+@media screen {
+	max-width: 960px; 
+}
+
+@media screen {
+	max-width: 768px;
+}
+
+@media screen {
+	max-width: 640px;
+}
